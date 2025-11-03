@@ -1,0 +1,81 @@
+        ===== Processed small1.json =====
+Time: 2025-11-03T10:39:00.207047200
+Graph file: small1.json
+Vertices: 4
+Edges: 4
+Execution time: 2,992 ms
+Critical Path: [A -> B -> D]
+Total Duration: 4
+
+===== Processed medium1.json =====
+Time: 2025-11-03T10:39:00.210596700
+Graph file: medium1.json
+Vertices: 8
+Edges: 8
+Execution time: 0,156 ms
+Critical Path: [A -> B -> E -> G -> H]
+Total Duration: 9
+
+===== Processed large1.json =====
+Time: 2025-11-03T10:39:00.211846600
+Graph file: large1.json
+Vertices: 12
+Edges: 13
+Execution time: 0,261 ms
+Critical Path: [A -> B -> E -> H -> K -> L]
+Total Duration: 12
+
+===== Processed small1.json =====
+Time: 2025-11-03T10:39:29.534225600
+Graph file: small1.json
+Vertices: 4
+Edges: 4
+Execution time: 2,928 ms
+Critical Path: [A -> B -> D]
+Total Duration: 4
+
+===== Processed medium1.json =====
+Time: 2025-11-03T10:39:29.536178100
+Graph file: medium1.json
+Vertices: 8
+Edges: 8
+Execution time: 0,135 ms
+Critical Path: [A -> B -> E -> G -> H]
+Total Duration: 9
+
+===== Processed large1.json =====
+Time: 2025-11-03T10:39:29.538404400
+Graph file: large1.json
+Vertices: 12
+Edges: 13
+Execution time: 0,127 ms
+Critical Path: [A -> B -> E -> H -> K -> L]
+Total Duration: 12
+
+===== Processed small1.json =====
+Time: 2025-11-03T10:48:10.938068500
+Graph file: small1.json
+Vertices: 4
+Edges: 4
+Execution time: 2,751 ms
+Critical Path: [A -> B -> D]
+Total Duration: 4
+
+===== Processed medium1.json =====
+Time: 2025-11-03T10:48:10.940072300
+Graph file: medium1.json
+Vertices: 8
+Edges: 8
+Execution time: 0,124 ms
+Critical Path: [A -> B -> E -> G -> H]
+Total Duration: 9
+
+===== Processed large1.json =====
+Time: 2025-11-03T10:48:10.942270200
+Graph file: large1.json
+Vertices: 12
+Edges: 13
+Execution time: 0,196 ms
+Critical Path: [A -> B -> E -> H -> K -> L]
+Total Duration: 12
+
