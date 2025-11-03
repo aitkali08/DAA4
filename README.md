@@ -52,44 +52,43 @@ This project implements graph algorithms to solve scheduling problems in smart c
 
 ## Project Structure
 ```
-smart-city-scheduling/
-├── src/
-│ └── main/java/graph/
-│ ├── scc/
-│ │ ├── StronglyConnectedComponents.java
-│ │ └── TarjanSCC.java
-│ ├── topo/
-│ │ ├── TopologicalSort.java
-│ │ └── KahnTopologicalSort.java
-│ ├── dagsp/
-│ │ ├── DAGShortestPath.java
-│ │ └── CriticalPath.java
-│ ├── model/
-│ │ ├── Graph.java
-│ │ ├── Vertex.java
-│ │ └── Edge.java
-│ ├── metrics/
-│ │ └── Metrics.java
-│ ├── utils/
-│ │ └── DataGenerator.java
-│ └── Main.java
-├── src/test/java/graph/
-│ ├── SCCTest.java
-│ ├── TopologicalSortTest.java
-│ └── DAGShortestPathTest.java
+DAA4/
 ├── data/
 │ ├── small/
-│ │ ├── small_1.json
-│ │ ├── small_2.json
-│ │ └── small_3.json
+│ │ └── small1.json
 │ ├── medium/
-│ │ ├── medium_1.json
-│ │ ├── medium_2.json
-│ │ └── medium_3.json
+│ │ └── medium1.json
 │ └── large/
-│ ├── large_1.json
-│ ├── large_2.json
-│ └── large_3.json
+│ └── large1.json
+├── src/
+│ └── main/
+│ └── java/
+│ └── graph/
+│ ├── dagsp/
+│ │ ├── CriticalPath.java
+│ │ └── DAGShortestPath.java
+│ ├── metrics/
+│ │ └── Metrics.java
+│ ├── model/
+│ │ ├── Edge.java
+│ │ ├── Graph.java
+│ │ └── Vertex.java
+│ ├── scc/
+│ │ └── TarjanSCC.java
+│ ├── topo/
+│ │ └── KahnTopologicalSort.java
+│ ├── utils/
+│ │ ├── DataGenerator.java
+│ │ ├── GraphLoader.java
+│ │ └── ResultLogger.java
+│ └── Main.java
+├── src/
+│ └── test/
+│ └── java/
+│ └── graph/
+│ ├── DAGShortestPathTest.java
+│ ├── SCCTest.java
+│ └── TopologicalSortTest.java
 ├── pom.xml
 └── README.md
 ```
