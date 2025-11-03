@@ -1,0 +1,14 @@
+{
+  "vertices": [
+    { "id": "A", "duration": 2 },
+    { "id": "B", "duration": 4 },
+    { "id": "C", "duration": 3 },
+    { "id": "D", "duration": 1 }
+  ],
+  "edges": [
+    { "from": "A", "to": "B", "weight": 1 },
+    { "from": "A", "to": "C", "weight": 2 },
+    { "from": "B", "to": "D", "weight": 3 },
+    { "from": "C", "to": "D", "weight": 1 }
+  ]
+}

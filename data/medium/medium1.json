@@ -1,0 +1,22 @@
+{
+  "vertices": [
+    { "id": "A", "duration": 3 },
+    { "id": "B", "duration": 2 },
+    { "id": "C", "duration": 4 },
+    { "id": "D", "duration": 1 },
+    { "id": "E", "duration": 2 },
+    { "id": "F", "duration": 3 },
+    { "id": "G", "duration": 5 },
+    { "id": "H", "duration": 2 }
+  ],
+  "edges": [
+    { "from": "A", "to": "B", "weight": 1 },
+    { "from": "A", "to": "C", "weight": 2 },
+    { "from": "B", "to": "D", "weight": 1 },
+    { "from": "B", "to": "E", "weight": 3 },
+    { "from": "C", "to": "F", "weight": 2 },
+    { "from": "E", "to": "G", "weight": 4 },
+    { "from": "F", "to": "G", "weight": 3 },
+    { "from": "G", "to": "H", "weight": 1 }
+  ]
+}
